@@ -10336,6 +10336,16 @@ header.mainhead video {
   font-size: 16px;
 }
 
+.overlay {
+  position: absolute;
+  background: rgb(0 0 0 / 39%);
+  width: 90%;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 50%;
+}
+
 /* Footer */
 
 footer{
