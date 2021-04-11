@@ -171,30 +171,48 @@
                         <!--  -->
                       <div class="row">
                         <div class="col-md-12">
-                            <div class="slider-for">
-                                <a href="assets/downtown/Downtown-Img-1.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-1.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-2.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-2.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-3.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-3.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-4.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-4.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-5.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-5.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-6.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-6.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-7.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-7.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-8.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-8.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-9.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-9.jpg" alt="Alt"></a>
-                                <a href="assets/downtown/Downtown-Img-10.jpg" class="item-slick"><img src="assets/downtown/Downtown-Img-10.jpg" alt="Alt"></a>
-                            </div>
-                            <div class="slider-nav">
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-1.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-2.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-3.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-4.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-5.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-6.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-7.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-8.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-9.jpg" alt="Alt"></div>
-                                <div class="item-slick"><img src="assets/downtown/Downtown-Img-10.jpg" alt="Alt"></div>
-                            </div>
+                            <div id="portfolio">
+                                <div class="container-fluid p-0">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-4 col-sm-6">
+                                            <a class="portfolio-box" href="assets/downtown-img/DTD_Downtown_Views_II_Real_Views-01.jpg">
+                                                <img class="img-fluid" src="assets/downtown-img/DTD_Downtown_Views_II_Real_Views-01.jpg" alt="" />
+                                                <div class="portfolio-box-caption">
+                                                    <!-- <div class="project-category text-white-50">Category</div>
+                                                    <div class="project-name">Project Name</div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6">
+                                            <a class="portfolio-box" href="assets/downtown-img/DTD_Downtown_Views_II_Real_Views-02.jpg">
+                                                <img class="img-fluid" src="assets/downtown-img/DTD_Downtown_Views_II_Real_Views-02.jpg" alt="" />
+                                                <div class="portfolio-box-caption">
+                                                    <div class="project-category text-white-50">Category</div>
+                                                    <div class="project-name">Project Name</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6">
+                                            <a class="portfolio-box" href="assets/downtown-img/DTD_Downtown_Views_II_Real_Views-03.jpg">
+                                                <img class="img-fluid" src="assets/downtown-img/DTD_Downtown_Views_II_Real_Views-03.jpg" alt="" />
+                                                <div class="portfolio-box-caption">
+                                                    <div class="project-category text-white-50">Category</div>
+                                                    <div class="project-name">Project Name</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6">
+                                            <a class="portfolio-box" href="assets/downtown-img/DTD_Downtown_Views_II_Real_Views-04.jpg">
+                                                <img class="img-fluid" src="assets/downtown-img/DTD_Downtown_Views_II_Real_Views-04.jpg" alt="" />
+                                                <div class="portfolio-box-caption">
+                                                    <div class="project-category text-white-50">Category</div>
+                                                    <div class="project-name">Project Name</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
                         </div>
                       </div>
                       <!--  -->
@@ -409,23 +427,23 @@
 
         <script>
             // Example starter JavaScript for disabling form submissions if there are invalid fields
-            (function() {
-              'use strict';
-              window.addEventListener('load', function() {
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-                // Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function(form) {
-                  form.addEventListener('submit', function(event) {
-                    if (form.checkValidity() === false) {
-                      event.preventDefault();
-                      event.stopPropagation();
-                    }
-                    form.classList.add('was-validated');
-                  }, false);
-                });
-              }, false);
-            })();
+            // (function() {
+            //   'use strict';
+            //   window.addEventListener('load', function() {
+            //     // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            //     var forms = document.getElementsByClassName('needs-validation');
+            //     // Loop over them and prevent submission
+            //     var validation = Array.prototype.filter.call(forms, function(form) {
+            //       form.addEventListener('submit', function(event) {
+            //         if (form.checkValidity() === false) {
+            //           event.preventDefault();
+            //           event.stopPropagation();
+            //         }
+            //         form.classList.add('was-validated');
+            //       }, false);
+            //     });
+            //   }, false);
+            // })();
             </script>
 
         <script>
@@ -535,34 +553,34 @@
         </script>
 
         <script>
-            console.clear();
-                    const app = (() => {
-                    let body;
-                    let menu;
-                    let menuItems;
+        //     console.clear();
+        //             const app = (() => {
+        //             let body;
+        //             let menu;
+        //             let menuItems;
 
-                    const init = () => {
-                        body = document.querySelector('body');
-                        menu = document.querySelector('.menu-icon');
-                        menuItems = document.querySelectorAll('.nav__list-item');
+        //             const init = () => {
+        //                 body = document.querySelector('body');
+        //                 menu = document.querySelector('.menu-icon');
+        //                 menuItems = document.querySelectorAll('.nav__list-item');
 
-                        applyListeners();
-                    };
+        //                 applyListeners();
+        //             };
 
-                    const applyListeners = () => {
-                        menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
-                    };
+        //             const applyListeners = () => {
+        //                 menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
+        //             };
 
-                    const toggleClass = (element, stringClass) => {
-                        if (element.classList.contains(stringClass))
-                        element.classList.remove(stringClass);else
+        //             const toggleClass = (element, stringClass) => {
+        //                 if (element.classList.contains(stringClass))
+        //                 element.classList.remove(stringClass);else
 
-                        element.classList.add(stringClass);
-                    };
+        //                 element.classList.add(stringClass);
+        //             };
 
-                   init();
-             })();
-        </script>
+        //            init();
+        //      })();
+        // </script>
 
     </body>
 </html>
