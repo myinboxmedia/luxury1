@@ -10295,18 +10295,20 @@ section#contact {
 
 /*  */
 
-.gallryView a.col-sm-8.largeV {
-  height: 320px;
+.gallryView .largeV {
+  height: 340px;
   background-size: cover !important;
   background-position: 50% 50% !important;
   cursor: pointer;
+  display: block;
 }
 
-.gallryView a.col-sm-4.smallV {
+.gallryView .smallV {
   height: 160px;
   background-size: cover !important;
   background-position: 50% 50% !important;
   cursor: pointer;
+  display: block;
 }
 
 /*  */
